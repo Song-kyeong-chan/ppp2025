@@ -1,4 +1,4 @@
-#과제03에서 칼로리 계산 프로그램을 사전형(딕셔너리)를 이용하여 구현하시오.
+# 칼로리 계산 프로그램(과제#04-03)를 수정하여, 총 칼로리를 계산하시오.(반복문, 사전 활용)
 eat_calories = {} # 먹은 과일 칼로리
 fruits = ["hanrabong", "apple", "raisin"] # 과일
 calories_g = {"hanrabong": 0.5, "apple" : 0.52, "raisin" : 2.97} # 한라봉 : 50kcal/100g, 사과 : 52kcal/100g, 건포도 297kcal/100g
