@@ -18,7 +18,7 @@ def year_avg_t(files, month_index,tavg_index):
     return avg_t
 
 def rain_5_more_total(files,month_index,rainfall_index):   
-    # 1~12월 일자별 강수데이터 리스트로 기록
+    # 1~12월 일자별 강우데이터 리스트로 기록
     rainfall = {i : [] for i in range(1,13)}
     for file in files[1:]:
         month = int(file[month_index])               
