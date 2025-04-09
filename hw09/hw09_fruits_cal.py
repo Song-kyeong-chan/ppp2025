@@ -11,7 +11,7 @@ def read_db(filename):
     return fruits_cal
 
 def main():
-    fruit_kcal = read_db('calorie_db.csv')
+    fruit_kcal = read_db('./calorie_db.csv')
     fruit_eat = {'쑥' : 200, '바나나': 200}
     total = 0
     for item in fruit_eat:
