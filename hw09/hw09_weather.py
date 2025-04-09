@@ -31,7 +31,7 @@ def rain_5_more_total(files,month_index,rainfall_index):
             if j >= 5 :
                 num_rain += 1
                 
-    # 총 강수량 구하기
+    # 총 강우량 구하기
     total = 0
     for i in rainfall:
         total += sum(rainfall[i])
