@@ -11,8 +11,11 @@ def average(a):
 
 def median(a):
     a = sorted(a)
-    b = len(a)//2
-    return a[b]
+    n = len(a)
+    if n % 2 == 0:
+        return (a[n//2] + a[n//2 - 1]) / 2
+    else:
+        return a[n//2]
 
 def read_text(filename):
     with open(filename, 'r' , encoding= 'utf-8') as f:
