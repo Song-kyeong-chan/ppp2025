@@ -1,3 +1,5 @@
+# 1. 수업시간 제시한 코드 혹은 본인이 작성한 코드를 활용하여, 칼로리 계산 프로그램을 완성하시오. 식품별 칼로리 정보를 파일에서 읽어서 처리
+
 def read_db(filename):
     with open(filename,'r',encoding='utf-8-sig') as f:
         lines = f.readlines()
