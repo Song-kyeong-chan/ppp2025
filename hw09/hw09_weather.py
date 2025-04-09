@@ -38,7 +38,7 @@ def rain_5_more_total(files,month_index,rainfall_index):
     return num_rain, total
 
 def main():
-    filename = '/Users/song-gyeongchan/Desktop/code/ppp2025/hw09/weather(146)_2022-2022.csv'
+    filename = 'weather(146)_2022-2022.csv'
     with open(filename,'r',encoding='utf-8-sig') as f:
         files = [a.strip().split(', ') for a in f.readlines()]
         # 기상자료 헤더부분 추출
