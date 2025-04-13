@@ -7,7 +7,7 @@ def read_db(filename):
         a = 0
         for line in lines[1:]:
                 token = line.strip('\n').split(',')
-                fruits_cal[token[0]] = int(token[1])
+                fruits_cal[token[0]] = int(token[1]) / int(token[2])
     return fruits_cal
 
 def main():
