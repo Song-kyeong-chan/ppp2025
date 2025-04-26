@@ -1,3 +1,5 @@
+# 1. 해당기간동안 연도별로 최대일교차가 발생한 일자와 일교차를 표시하시오.
+
 def maximum_temp_gap(dates,tmax,tmin, start_year = 2001):
     max_gap_date = dates[0]
     max_gap = tmax[0] - tmin[0]
