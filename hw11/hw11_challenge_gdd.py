@@ -1,9 +1,6 @@
 
-# 2001 , 2002 => date 변수 지정 
-# 4월부터 => 함수안에서 대입 if >= 4
-# 적산온도 200 이상 => tavg 사용 
-# gdd_200_over_2001_2022(dates,tavg, base_temp = 5, base_month = 4)
-# dates = 리스트로 받고 
+# 3. 2001년부터 2022년까지 각 해마다 4월부터 시작해서, 적산온도가 200이 넘는 최초일을 구하시오.
+    
 def get_weather_date_tavg(filename, col_idx = 4 , year_start = 2001, year_last = 2022):
     with open(filename, 'r', encoding='utf-8-sig') as f:
         files = f.readlines()
