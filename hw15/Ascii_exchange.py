@@ -85,8 +85,8 @@ def main():
     a = Acsii()
     text = input("문자열을 입력하세요.: ")
     print(a.toggle_text(text)) # 과제 1번문제
-    print(a.caesar_encode('dsad')) # 과제 2번문제
-    print(a.caesar_decode('dsad')) # 과제 2번문제
+    print(a.caesar_encode(text)) # 과제 2번문제
+    print(a.caesar_decode(text)) # 과제 2번문제
 
     
 if __name__ == "__main__":
