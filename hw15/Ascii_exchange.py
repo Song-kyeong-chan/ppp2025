@@ -36,7 +36,7 @@ class Acsii:
                 full_text.append(i)
         full_text = ''.join(full_text)
         return full_text
-
+'''
 def print_code(ch):
     print(f"{ch} => {ord(ch)}")
     return ord(ch)
@@ -76,7 +76,7 @@ def to_chosung(text):
         a = chr(k)
         print(t,k,a)
     return 
-
+'''
 def main():
     # text = input("문자열을 입력하시오.: ")
     # to_upper('a')
@@ -84,21 +84,10 @@ def main():
     # print(caesar_encode('dsad'))
     a = Acsii()
     text = input("문자열을 입력하세요.: ")
-    print(a.toggle_text(text))
+    print(a.toggle_text(text)) # 과제 1번문제
+    print(a.caesar_encode('dsad')) # 과제 2번문제
+    print(a.caesar_decode('dsad')) # 과제 2번문제
 
-    import random as r
     
-    problem = ['바나나','딸기','수박','메론']
-    solution = problem[r.randrange(len(problem))]
-    while True:
-        answer= input(f'{to_chosung(solution)} ')
-        is_corret = False
-        if answer == solution:
-            print("정답입니다.")
-            is_corret = True
-            break
-        else:
-            print("오답입니다.")
-    pass
 if __name__ == "__main__":
     main()
