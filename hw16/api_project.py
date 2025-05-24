@@ -25,7 +25,10 @@ def get_weather_data(filename, col_idx):
         files = f.readlines()
         for file in files[1:]:
             line = file.strip().split(',')
-            datas.append(float(line[col_idx]))
+            try:
+                datas.append(float(line[col_idx]))
+            except:
+                continue
     return datas
 
 def total_rainfall(rainfall_idx):
