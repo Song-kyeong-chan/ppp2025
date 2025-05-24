@@ -36,7 +36,7 @@ def max_of_tavg(tavg_idx):
 
 def max_of_temp_diff(tmax_idx, tmin_idx):
     max_diff = tmax_idx[0] - tmin_idx[0]
-    for i in len(tmax_idx):
+    for i in range(len(tmax_idx)):
         t_diff = tmax_idx[i] - tmin_idx[i]
         if t_diff > max_diff:
             max_diff = t_diff
