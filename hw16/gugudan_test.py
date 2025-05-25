@@ -1,3 +1,5 @@
+import random as r
+
 def gugudan(start: int = 1 , end: int = 10, problem_number: int = 5) -> float:
     is_collect = 0
     problem_number = 5
@@ -22,9 +24,9 @@ def main():
     a = r.randint(1,100)
     b = r.randint(1,100)
     if a > b:
-        gugudan(b,a)
+        start, end = b , a
     else:
-        gugudan(a,b)
-
+        start, end = a, b
+    gugudan(start, end)
 if __name__ == "__main__":
     main()
