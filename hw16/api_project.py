@@ -88,6 +88,6 @@ def main():
     answer3 = max_temp_diff_2024
     answer4 = total_rainfall_diff_2024
 
-    # submit_to_api(name, affiliation, student_id, answer1, answer2, answer3, answer4, verbose=True)
+    submit_to_api(name, affiliation, student_id, answer1, answer2, answer3, answer4, verbose=True)
 if __name__ == "__main__":
     main()
