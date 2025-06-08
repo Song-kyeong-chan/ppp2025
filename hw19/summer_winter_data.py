@@ -46,7 +46,7 @@ def main():
     ax[1].set_ylabel('빈도')
     ax[1].set_title("최저/최고 온도 빈도")
     ax[1].legend()
-    plt.savefig('./hw19/frequency_temp_1980_2024')
+    plt.savefig('./hw19/frequency_summer_winter_temp_1980_2024')
     
     plt.show()
 if __name__ == "__main__":
